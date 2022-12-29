@@ -2,8 +2,7 @@
   "retryOn429": true,
   "ignorePatterns": [
     {
-      "pattern": "^http://localhost:9867",
-      "pattern": "^https://suricata.io"
+      "pattern": "^http://localhost:9867|^https://suricata.io"
     }
   ],
   "httpHeaders": [
