@@ -2,7 +2,7 @@
   "retryOn429": true,
   "ignorePatterns": [
     {
-      "pattern": "^http://localhost:9867|^https://suricata.io"
+      "pattern": "^https://www.brimdata.io|^https://suricata.io"
     }
   ],
   "httpHeaders": [
