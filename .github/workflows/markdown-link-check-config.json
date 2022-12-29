@@ -1,6 +1,6 @@
 {
   "retryOn429": true,
-  "ignorePatterns": [{"pattern": "/suricata.io/"}],
+  "ignorePatterns": [{"pattern": "suricata"}],
   "httpHeaders": [
     {
       "urls": ["https://docs.github.com/"],
