@@ -1,13 +1,5 @@
 {
   "retryOn429": true,
-  "ignorePatterns": [
-    {
-      "pattern": "^https://www.brimdata.io"
-    },
-    {
-      "pattern": "^https://suricata.io"
-    }
-  ],
   "httpHeaders": [
     {
       "urls": ["https://docs.github.com/"],
