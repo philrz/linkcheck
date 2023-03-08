@@ -155,7 +155,7 @@ then interpreted according to the `T` bits of the frame code as a
 A _types frame_ encodes a sequence of type definitions for complex Zed types
 and establishes a "type ID" for each such definition.
 Type IDs for the "primitive types"
-are predefined with the IDs listed in the [Primitive Types](#3-primitive-types) table.
+are predefined with the IDs listed in the Primitive Types table.
 
 Each definition, or "typedef",
 consists of a typedef code followed by its type-specific encoding as described below.
@@ -352,7 +352,7 @@ The tag itself is encoded as a `uvarint`.
 
 Following the tag encoding is the value encoded in N bytes as described above.
 A typed value with a `value` of length `N` is interpreted as described in the
-[Primitive Types](#3-primitive-types) table.  The type information needed to
+Primitive Types table.  The type information needed to
 interpret all of the value elements of a complex type are all implied by the
 top-level type ID of the values frame.  For example, the type ID could indicate
 a particular record type, which recursively provides the type information
