@@ -491,7 +491,7 @@ be re-emitted
 
 For each ZNG primitive type, the following table describes:
 * its type ID, and
-* the interpretation of a length `N` [value frame](#22-values-frame).
+* the interpretation of a length `N` value frame.
 
 All fixed-size multi-byte sequences representing machine words
 are serialized in little-endian format.
