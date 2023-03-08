@@ -5,7 +5,7 @@ automatic generation of [Suricata](https://suricata.io) alerts from imported pca
 
 Brim's web site is [here](https://www.brimdata.io).
 
-[Dependencies](#dependencies)
+[Dependencies](#Dependencies)
 
 text
 
