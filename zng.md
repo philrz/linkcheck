@@ -8,7 +8,7 @@ sidebar_label: ZNG
 ## 1. Introduction
 
 ZNG (pronounced "zing") is an efficient, sequence-oriented serialization format for any data
-conforming to the [Zed data model](zed.md).
+conforming to the Zed data model.
 
 ZNG is "row oriented" and
 analogous to [Apache Avro](https://avro.apache.org) but does not
@@ -129,7 +129,7 @@ but is useful to an implementation to deterministically
 size decompression buffers in advance of decoding.
 
 Values for the `format` byte are defined in the
-[ZNG compression format specification](./compression.md).
+ZNG compression format specification.
 
 > This arrangement of frames separating types and values allows
 > for efficient scanning and parallelization.  In general, values depend
