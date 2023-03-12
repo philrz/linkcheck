@@ -22,6 +22,6 @@ jobs:
         slack_web_hook_url: ${{ secrets.SLACK_WEBHOOK_BRIMLABS_DOCS }}
         slack_json: |
           {
-            "username": "markdown-link",
+            "username": "zui-docs-site",
             "text": "Markdown link check failed: https://github.com/{{GITHUB_REPOSITORY}}/actions/runs/{{GITHUB_RUN_ID}}"
           }
