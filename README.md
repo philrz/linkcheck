@@ -94,4 +94,4 @@ text
 # Dependencies
 This markdown example has no dependencies.
 
-[separated by newlines](http://ndjson.org/))
+[separated by newlines](https://ndjson.org/))
