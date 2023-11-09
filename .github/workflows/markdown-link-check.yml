@@ -11,17 +11,7 @@ jobs:
     - name: Extract branch name
       run: echo "branch=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_OUTPUT
       id: extract_branch
-    - uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
       with:
         config-file: .github/workflows/markdown-link-check-config.json
         use-verbose-mode: yes
-    - name: Inform Slack users of link check failures
-      uses: tiloio/slack-webhook-action@v1.1.2
-      if: ${{ failure() }}
-      with: 
-        slack_web_hook_url: ${{ secrets.SLACK_WEBHOOK_BRIMLABS_DOCS }}
-        slack_json: |
-          {
-            "username": "{{GITHUB_REPOSITORY}}",
-            "text": "Markdown link check failed: https://github.com/{{GITHUB_REPOSITORY}}/actions/runs/{{GITHUB_RUN_ID}}"
-          }
