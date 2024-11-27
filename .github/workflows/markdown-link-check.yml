@@ -14,3 +14,4 @@ jobs:
       with:
         fail_on_error: true
         config_file: .linkspector.yml
+        filter_mode: nofilter
